@@ -35,3 +35,44 @@ import {VideocamOutlinedIcon as Video} from '@mui/icons-material/VideocamOutline
         </Box>
     </Box>
     </>
+
+     <input placeholder='Matrimony profile for' style={{
+        width: '250px',
+        height: '28px',
+        border: 'none',
+        marginTop: '25px',
+        borderRadius: '10px'
+      }}/>
+      <br/>
+      <input placeholder='Enter Your Name' style={{
+        width: '250px',
+        height: '28px',
+        border: 'none',
+        marginTop: '25px',
+        borderRadius: '10px'
+      }}/>
+      <br/>
+      <input placeholder=' + 91' style={{
+        width: '35px',
+        height: '28px',
+        border: 'none',
+        marginTop: '25px',
+        borderRadius: '10px'
+      }}/> 
+
+      <input placeholder='Enter Mobile Number' style={{
+        width: '200px',
+        height: '28px',
+        border: 'none',
+        marginTop: '25px',
+        borderRadius: '10px',
+        marginLeft: '10px'
+      }}/>
+      <br/>
+      <input placeholder='Register Free' style={{
+        width: '250px',
+        height: '28px',
+        border: 'none',
+        marginTop: '25px',
+        borderRadius: '10px'
+      }}/>

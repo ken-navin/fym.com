@@ -1,8 +1,9 @@
-import { Box, Input, Typography } from '@mui/material'
+import { Box, Input, InputAdornment, TextField, Typography } from '@mui/material'
 import React from 'react'
 import PhoneForwardedOutlinedIcon  from  '@mui/icons-material/PhoneForwardedOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 import VideocamOutlinedIcon  from '@mui/icons-material/VideocamOutlined';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export default function Register() {
   return (
@@ -11,7 +12,7 @@ export default function Register() {
       marginTop: '200px',
       marginBottom: '100px',
       width: '100%',
-      height: '380px',
+      height: '400px',
       display: 'flex',
       justifyContent: 'space-between',
       backgroundColor: '#F6E8E8C4'
@@ -71,7 +72,7 @@ export default function Register() {
         borderRadius: '10px',
         padding: '30px',
         paddingTop: '10px',
-        height: '300px',
+        height: '320px',
         marginTop: '15px',
         marginRight: '80px',
         backgroundColor: '#E7D9D9',
@@ -83,46 +84,88 @@ export default function Register() {
       }}>
         Find your perfect match
       </Typography>
-      <input placeholder='Matrimony profile for' style={{
-        width: '250px',
-        height: '28px',
-        border: 'none',
-        marginTop: '25px',
-        borderRadius: '10px'
-      }}/>
-      <br/>
-      <input placeholder='Enter Your Name' style={{
-        width: '250px',
-        height: '28px',
-        border: 'none',
-        marginTop: '25px',
-        borderRadius: '10px'
-      }}/>
-      <br/>
-      <input placeholder=' + 91' style={{
-        width: '35px',
-        height: '28px',
-        border: 'none',
-        marginTop: '25px',
-        borderRadius: '10px'
-      }}/> 
 
-      <input placeholder='Enter Mobile Number' style={{
-        width: '200px',
-        height: '28px',
-        border: 'none',
-        marginTop: '25px',
-        borderRadius: '10px',
-        marginLeft: '10px'
-      }}/>
-      <br/>
-      <input placeholder='Register Free' style={{
+      <TextField id="outlined-basic" label="Matrimony profile for" variant="outlined" sx={{
+        "& .MuiInputBase-root": {
+          height: "40px",
+        },
+        "& .MuiInputLabel-root": {
+          top: '-6px'
+        },
+        marginTop: '20px',
         width: '250px',
-        height: '28px',
-        border: 'none',
-        marginTop: '25px',
+        backgroundColor: 'white',
         borderRadius: '10px'
       }}/>
+      <br/>
+      <TextField id="outlined-basic" label="Enter Your Name" variant="outlined" sx={{
+        "& .MuiInputBase-root" : {
+          height: '40px'
+        },
+        "& .MuiInputLabel-root": {
+          top: '-6px'
+        },
+        marginTop: '20px',
+        width: '250px',
+        backgroundColor: 'white',
+        border: 'none',
+        borderRadius: '9px'
+      }}/>
+      <br/>
+      <Box sx={{
+        display: 'flex',
+        gap: '20px'
+      }}>
+      <TextField id="outlined-basic" label="+91" variant="outlined" sx={{
+        "& .MuiInputBase-root" : {
+          height: '40px'
+        },
+        "& .MuiInputLabel-root": {
+          top: '-6px'
+        },
+        marginTop: '20px',
+        width: '50px',
+        backgroundColor: 'white',
+        border: 'none',
+        borderRadius: '9px'
+      }}/>
+      <TextField id="outlined-basic" label="Enter Mobile Number" variant="outlined" sx={{
+        "& .MuiInputBase-root" : {
+          height: '40px'
+        },
+        "& .MuiInputLabel-root": {
+          top: '-6px'
+        },
+        marginTop: '20px',
+        width: '180px',
+        backgroundColor: 'white',
+        border: 'none',
+        borderRadius: '9px'
+      }}/>
+      </Box>
+      <TextField id="outlined-basic" label="Register Here" variant="outlined" 
+       InputProps={{
+        endAdornment: (
+          <InputAdornment position="end">
+            <ArrowForwardIcon sx={{
+              color: 'black',
+            }}/>
+          </InputAdornment>
+        ),
+      }}
+       sx={{
+        "& .MuiInputBase-root": {
+          height: "40px", // Adjust the overall height
+        },
+        "& .MuiInputLabel-root": {
+          top: "-6px", // Move the label up or down
+        },
+        backgroundColor: 'white',
+        marginTop: '20px',
+        width: '250px',
+        borderRadius: '10px'
+      }}/>
+      
       <Typography sx={{
         fontSize: '8px',
         marginTop: '25px',
