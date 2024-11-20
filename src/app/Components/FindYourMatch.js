@@ -51,7 +51,7 @@ const FindYourMatch = () => {
         sx={{
           backgroundColor: '#f5f5f5',
           padding: 3,
-          marginTop: '25rem',
+          marginTop: '13rem',
         }}>
         <Typography variant='h4' textAlign='center' gutterBottom sx={{ fontFamily: `"Readex Pro", sans-serif`, marginTop: '0px' }}>
           Millions have found their life partner at FindyourMatch!
