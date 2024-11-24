@@ -10,7 +10,6 @@ export default function Register() {
     <>
     <Box sx={{
       marginTop: '0px',
-      marginBottom: '100px',
       width: '100%',
       height: '400px',
       display: 'flex',

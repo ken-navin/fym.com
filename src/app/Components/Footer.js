@@ -7,7 +7,7 @@ const Footer = () => {
     <Box sx={{
         width: '100%',
         height: '230px',
-        marginTop: '-100px',
+        marginTop: '-10px',
         paddingTop: '50px',
         display: 'flex',
         justifyContent: 'space-around',
