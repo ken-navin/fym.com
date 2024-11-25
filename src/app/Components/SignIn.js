@@ -33,7 +33,7 @@ const SignIn = () => {
         <Box sx={{
             // border: '1px solid black',
             height: '375px',
-            width: '100%',
+            width: '-webkit-fill-available',
             display: 'flex',
             justifyContent: 'space-around',
             backgroundColor: '#FFC1CC',

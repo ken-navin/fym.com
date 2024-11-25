@@ -7,7 +7,7 @@ const Trust = () => {
   return (
     <>
     <Box sx={{
-        width: '100%',
+        width: '-webkit-fill-available',
         height: '100px',
         display: 'flex',
         justifyContent: 'space-around',
