@@ -7,7 +7,7 @@ const About = () => {
     <Box sx={{
         paddingTop: '30px',
         paddingLeft: '80px',
-        width: '1160px',
+        width: '-webkit-fill-available',
         height: '200px'
     }}>
         <Typography sx={{
